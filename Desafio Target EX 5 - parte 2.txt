@@ -1,0 +1,24 @@
+// EXERCÍCIO 5.CPP
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    string inputString;
+    cout << "Informe uma string: ";
+    getline(cin, inputString);
+
+
+    int length = inputString.length();
+    for (int i = 0; i < length / 2; ++i) {
+        char temp = inputString[i];
+        inputString[i] = inputString[length - i - 1];
+        inputString[length - i - 1] = temp;
+    }
+
+
+    cout << "String Invertida: " << inputString << std::endl;
+    cout << "\nTecle <Enter> para encerrar... ";
+    return 0;
+}
