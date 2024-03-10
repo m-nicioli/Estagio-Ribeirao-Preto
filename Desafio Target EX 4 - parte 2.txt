@@ -1,0 +1,5 @@
+// EXERCÍCIO 4
+
+resposta: ligando um dos interruptores e esperando alguns minutos. Depois, desligando e ligando o segundo interruptor. 
+Saindo da sala e indo para a outra, a lâmpada desligada e quente corresponde ao primeiro interruptor, a 
+lâmpada acesa ao segundo e a lâmpada apagada e fria ao terceiro.
